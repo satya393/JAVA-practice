@@ -1,11 +1,19 @@
 package com.satyaLoop;
 
 public class TestFour {
+	
+	
+	
+
+	public int length2;
+
+
+
 
 	public void TestFour() {
 		System.out.println("this is TestFour class srom package com.satyaLoop Strings");
 		System.out.println("---------------------------------------------------------");
-
+		
 //		two types of variable declaration
 		String s1 = "hello";
 		String s2 = "hello";
@@ -31,7 +39,7 @@ public class TestFour {
 	
 	
 	
-	public void methosList() {
+	public int methosList() {
 		
 		System.out.println(" methosList   ");
 //		 string methods start:
@@ -42,15 +50,19 @@ public class TestFour {
 				"regionMatches()", "replace()", "replaceFirst()", "replaceAll()", "split()", "startsWith()",
 				"subSequence()", "substring()", "toCharArray()", "toLowerCase()", "toString()", "toUpperCase()",
 				"trim()", "valueOf()" };
-
+		
+		
+		int length = method.length;
+		
+		length2=length;
 		int i;
-		for (i = 0; i < method.length; i++) {    
+		for (i = 0; i < length; i++) {    
 			System.out.print( " "+method[i] + "|");
 		}
 		System.out.println();
-		System.out.println("we have "+  i  + " no.of methods ");	
-//		 string methods End:
-	
+		System.out.println("we have "+  length  + " no.of methods "+length2);	
+		return length;
+//	 string methods End:
 	}
 
 }

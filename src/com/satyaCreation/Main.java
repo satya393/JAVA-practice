@@ -19,7 +19,7 @@ public class Main  extends TestFour{
 //		single Array
 		objLoop.TestTwo();
 		
-	//  two dimensional   
+//  two dimensional   
 		objLoop.TestThree();
 		
 //	Array
@@ -28,7 +28,20 @@ public class Main  extends TestFour{
 //		method list
 		objLoop.methosList();
 
+		
+		
+		int size = objLoop.length2;
+		
+		if (size > 0  ) {
+			System.out.println("true " +objLoop.length2);
+		}else {
+			System.out.println("false " +objLoop.length2);
+		}
+
 	
+		
+		
+		
 	}
 
 }
