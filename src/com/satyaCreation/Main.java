@@ -16,21 +16,19 @@ public class Main  extends TestFour{
 //		for loop
 		objLoop.TestOne();
 		
-//		Array
+//		single Array
 		objLoop.TestTwo();
 		
-	// Mute 
+	//  two dimensional   
 		objLoop.TestThree();
 		
 //	Array
 		objLoop.TestFour();
 		
 //		method list
-//		objLoop.methosList();
+		objLoop.methosList();
 
-       
-		
-		
+	
 	}
 
 }
