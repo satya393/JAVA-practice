@@ -62,7 +62,42 @@ public class TestFour {
 		System.out.println();
 		System.out.println("we have "+  length  + " no.of methods "+length2);	
 		return length;
-//	 string methods End:
+//	 string methods End: 
 	}
 
+	
+    	public void conditionMethos() {
+    		
+	        int id;
+          	String name ; 
+    		String add;
+    		double ph_no;
+    		String category;
+    		
+    	
+    		id=1;
+    		name="satya";
+    		add="near to my house";
+    		ph_no= 99192919;
+    		category="book";
+    		
+    		
+			if (name != null  ) {
+				System.out.println("hello"+ name);
+				if (ph_no  == ph_no) {
+					System.out.println("jjj");
+				}else {
+					System.out.println("k");
+				}
+				
+			} else {
+				System.out.println("pleas give vales for name");
+			};
+			
+			
+			
+    		
+	    }
+	
+	
 }

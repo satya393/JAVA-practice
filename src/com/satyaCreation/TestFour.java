@@ -10,7 +10,7 @@ public class TestFour extends TestThree {
 		four.TestOne();
 		four.TestTwo();
 		four.TestThree();
-//		four.TestFour();
+		
 		
 		
 	}
